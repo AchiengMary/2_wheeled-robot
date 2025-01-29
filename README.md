@@ -1,10 +1,11 @@
-#2-Wheeled Robot Simulation (ROS 2 & Webots)
+## 2-Wheeled Robot Simulation (ROS 2 & Webots)
 
 This project sets up a basic 2-wheeled robot in Webots and integrates it with ROS 2 for simulation and control. It includes:
+-A URDF model of the robot
+-Webots world file
+-ROS2 package for launching the simulation
 
-    A URDF model of the robot
-    Webots world file
-    ROS2 package for launching the simulation
+## Project structure
 
 2-wheeled-robot/
 │── src/                      # Source files for the ROS 2 package  
@@ -15,11 +16,11 @@ This project sets up a basic 2-wheeled robot in Webots and integrates it with RO
 │── package.xml                # ROS 2 package manifest  
 │── README.md                  # Project documentation  
 
-Future Improvements
+## Future Improvements
 
-    Adding sensor support (LIDAR, IMU, Camera)
-    Enhancing robot control
+-Adding sensor support (LIDAR, IMU, Camera)
+-Enhancing robot control
 
-Contributors
+## Contributors
 
-    Achieng Mary – achieng75mary@gmail.com
+**Achieng Mary** – [achieng75mary@gmail.com](mailto:achieng75mary@gmail.com)
