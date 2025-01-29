@@ -1,0 +1,44 @@
+[5.567s] Invoking command in '/home/achieng/robotics/ros2_ws/src/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/achieng/robotics/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/achieng/robotics/ros2_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/achieng/robotics/ros2_ws/build/my_package/build install --record /home/achieng/robotics/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
+[5.991s] running egg_info
+[5.991s] creating ../../build/my_package/my_package.egg-info
+[6.022s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[6.022s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[6.022s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[6.023s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[6.023s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[6.023s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[6.089s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[6.089s] adding license file 'LICENSE'
+[6.090s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[6.090s] running build
+[6.090s] running build_py
+[6.090s] creating /home/achieng/robotics/ros2_ws/build/my_package/build
+[6.090s] creating /home/achieng/robotics/ros2_ws/build/my_package/build/lib
+[6.091s] creating /home/achieng/robotics/ros2_ws/build/my_package/build/lib/my_package
+[6.091s] copying my_package/__init__.py -> /home/achieng/robotics/ros2_ws/build/my_package/build/lib/my_package
+[6.091s] copying my_package/my_robot_driver.py -> /home/achieng/robotics/ros2_ws/build/my_package/build/lib/my_package
+[6.091s] running install
+[6.100s] running install_lib
+[6.131s] creating /home/achieng/robotics/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package
+[6.131s] copying /home/achieng/robotics/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/achieng/robotics/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package
+[6.131s] copying /home/achieng/robotics/ros2_ws/build/my_package/build/lib/my_package/my_robot_driver.py -> /home/achieng/robotics/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package
+[6.132s] byte-compiling /home/achieng/robotics/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package/__init__.py to __init__.cpython-312.pyc
+[6.132s] byte-compiling /home/achieng/robotics/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package/my_robot_driver.py to my_robot_driver.cpython-312.pyc
+[6.134s] running install_data
+[6.135s] creating /home/achieng/robotics/ros2_ws/install/my_package/share/ament_index
+[6.135s] creating /home/achieng/robotics/ros2_ws/install/my_package/share/ament_index/resource_index
+[6.136s] creating /home/achieng/robotics/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[6.136s] copying resource/my_package -> /home/achieng/robotics/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[6.136s] creating /home/achieng/robotics/ros2_ws/install/my_package/share/my_package/launch
+[6.136s] copying launch/robot_launch.py -> /home/achieng/robotics/ros2_ws/install/my_package/share/my_package/launch
+[6.137s] creating /home/achieng/robotics/ros2_ws/install/my_package/share/my_package/worlds
+[6.137s] copying worlds/my_world.wbt -> /home/achieng/robotics/ros2_ws/install/my_package/share/my_package/worlds
+[6.137s] creating /home/achieng/robotics/ros2_ws/install/my_package/share/my_package/resource
+[6.137s] copying resource/my_robot.urdf -> /home/achieng/robotics/ros2_ws/install/my_package/share/my_package/resource
+[6.138s] copying package.xml -> /home/achieng/robotics/ros2_ws/install/my_package/share/my_package
+[6.138s] running install_egg_info
+[6.171s] Copying ../../build/my_package/my_package.egg-info to /home/achieng/robotics/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info
+[6.172s] running install_scripts
+[6.375s] Installing my_robot_driver script to /home/achieng/robotics/ros2_ws/install/my_package/lib/my_package
+[6.376s] writing list of installed files to '/home/achieng/robotics/ros2_ws/build/my_package/install.log'
+[6.419s] Invoked command in '/home/achieng/robotics/ros2_ws/src/my_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/achieng/robotics/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/achieng/robotics/ros2_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/achieng/robotics/ros2_ws/build/my_package/build install --record /home/achieng/robotics/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
